@@ -7,7 +7,7 @@
     name=python-pip
     state=present
 
-- name: Install S3cmd.
+- name: Install s3cmd.
   pip:
     name=s3cmd
     state=latest
