@@ -39,4 +39,4 @@ Licensed under one of the following license: GPLv3, GPLv2, LGPLv2.
 
 Maintainer
 --------------
-[Ahmed AbouZaid](https://github.com/AAbouZaid)
+[Ahmed AbouZaid](http://tech.aabouzaid.com/)
