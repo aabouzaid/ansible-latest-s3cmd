@@ -1,0 +1,11 @@
+---
+#Standalone.
+
+- name: Ansible role to install and configure latest version of s3cmd (via pip).
+  hosts: s3-servers
+  sudo: true
+  gather_facts: no
+
+  tasks:
+  - include_vars: vars/main.yml
+  - include: tasks/main.yml

@@ -1,0 +1,25 @@
+---
+# tasks file for ansible-latest-s3cmd
+
+- name: Install pip.
+  apt:
+    update_cache=yes
+    name=python-pip
+    state=present
+
+- name: Install S3cmd.
+  pip:
+    name=s3cmd
+    state=latest
+
+- name: Symlink s3cmd executable file.
+  file:
+    src=/usr/local/bin/s3cmd
+    dest=/usr/bin/s3cmd
+    state=link
+
+- name: S3 config file.
+  template:
+    src="s3cfg.j2" || "templates/s3cfg.j2"
+    dest=/root/.s3cfg
+    mode=600

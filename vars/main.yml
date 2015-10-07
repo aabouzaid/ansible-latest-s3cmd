@@ -1,0 +1,5 @@
+---
+# vars file for ansible-latest-s3cmd
+s3cmd:
+  key: ''
+  secret: ''
