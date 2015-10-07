@@ -21,5 +21,5 @@
 - name: S3 config file.
   template:
     src="s3cfg.j2" || "templates/s3cfg.j2"
-    dest=/root/.s3cfg
+    dest=~/.s3cfg
     mode=600
