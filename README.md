@@ -1,4 +1,4 @@
-Ansible role/standalone to install latest s3cmd via pip.
+Ansible s3cmd role/standalone
 ===========================
 
 Ansible role -and standalone- to install and configure latest version of s3cmd (via pip).
@@ -37,6 +37,6 @@ License
 --------------
 Licensed under one of the following license: GPLv3, GPLv2, LGPLv2.
 
-Maintainers
+Maintainer
 --------------
 [Ahmed AbouZaid](https://github.com/AAbouZaid)
