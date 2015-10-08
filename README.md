@@ -5,7 +5,7 @@ Ansible role -and standalone- to install and configure latest version of s3cmd (
 
 Using
 --------------
-Use role directly:
+Use it directly:
 ```bash
 ansible-playbook ansible-latest-s3cmd.yml
 ```
